@@ -1,3 +1,5 @@
+import { COLORS } from '../../constants/colors';
+
 const NewArrivals = () => {
   const books = [
     {
@@ -19,15 +21,15 @@ const NewArrivals = () => {
 
   return (
     <section className="py-16 text-center">
-      <h2 className="text-3xl font-semibold">New Arrivals</h2>
-      <p className="text-gray-500 mt-4 max-w-xl mx-auto">Check out our latest books and resources.</p>
+      <h2 style={{ color: COLORS.black }} className="text-3xl font-semibold">New Arrivals</h2>
+      <p style={{ color: COLORS.black }} className="text-gray-500 mt-4 max-w-xl mx-auto">Check out our latest books and resources.</p>
       <div className="mt-8 flex space-x-4 justify-center">
         {books.map((book, i) => (
           <div key={i} className="bg-white shadow-lg p-4 rounded-lg">
             <img src={book.imageUrl} alt={book.title} className="mx-auto w-[20rem]" />
-            <h3 className="mt-4 font-semibold">{book.title}</h3>
-            <p className="text-gray-500">{book.price}</p>
-            <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg">View Book Demo</button>
+            <h3 style={{ color: COLORS.black }} className="mt-4 font-semibold">{book.title}</h3>
+            <p style={{ color: COLORS.black }} className="text-gray-500">{book.price}</p>
+            <button  className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg">View Book Demo</button>
           </div>
         ))}
       </div>

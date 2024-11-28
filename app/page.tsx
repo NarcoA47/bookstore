@@ -5,12 +5,12 @@ import About from './components/Home/About';
 import NewArrivals from './components/Home/NewArrivals';
 import Testimonials from './components/Home/Testimonials';
 import Topics from './components/Home/Topics';
-import Footer from './components/Home/Footer';
+import Footer from './components/Footer';
 import ContactUs from './components/Home/Contactus';
 
 const Home = () => {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <Header />
       <Hero />
       <About />

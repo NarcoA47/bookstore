@@ -1,8 +1,10 @@
+import { COLORS } from '../../constants/colors';
+
 const About = () => {
   return (
-    <section className="py-16 text-center bg-gray-50">
-      <h2 className="text-3xl font-semibold">About The Redex Library</h2>
-      <p className="text-gray-500 mt-4 max-w-xl mx-auto">
+    <section className="py-16 text-center ">
+      <h2 style={{ color: COLORS.black }} className="text-3xl font-semibold">About The Watch Man Missionary Society</h2>
+      <p style={{ color: COLORS.black }} className="mt-4 max-w-xl mx-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in
         lectus mollis lacus eu, auctor auctor neque.
       </p>

@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "The Redex Library",
-  description: "The Redex Library",
+  title: "Watch Man Missionary Society",
+  description: "Watch Man Missionary Society",
 };
 
 export default function RootLayout({
